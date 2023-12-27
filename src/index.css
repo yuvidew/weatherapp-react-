@@ -1,13 +1,52 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  /* color: #fefeff; */
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input::placeholder{
+  color: #4a4b4b;
+}
+
+html {
+  color: #010101;
+    font-size: 62.5%;
+}
+
+html::-webkit-scrollbar{
+  width: 0rem;
+}
+
+button{
+  cursor: pointer;
+}
+body{
+  gap: 4rem;
+  /* background: #0562b379; */
+  height: 100vh;
+}
+
+#root{
+  background: #fefefe !important;
+  /* background: transparent; */
+  width: 100%;
+  height: 100%;
+  color: #010101 !important;
+  /* height: 90%; */
+  /* background-color: aliceblue; */
+  /* flex-direction: column; */
+}
+
+section::-webkit-scrollbar{
+  display: none;
 }
